@@ -9,7 +9,7 @@ HTML body of the given URL being search for images defined within ```img``` tag.
 
 ### Support
 -------
-Have you seen something that looks like a mistake or would like to suggest an improovement ?
+Have you seen something that looks like a mistake or would like to suggest an improvement ?
 [Open an issue on GitHub](https://github.com/alexpechkarev/url-image-optimiser/issues)
 
 
