@@ -1,6 +1,8 @@
 ## URL Image Optimiser
 
-This service is powerd by [Node JS](https://nodejs.org/en/) and set to perform image optimization that defined within an img tag from a specified URL. Optimisation will be attempted for images of the following types ```.jpg .png .gif .svg```. Service utilizes [imagemin](https://github.com/imagemin/imagemin) along with following plugins: [imagemin-jpegtran](https://github.com/imagemin/imagemin-jpegtran),  [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant),  [imagemin-gifsicle](https://github.com/imagemin/imagemin-gifsicle),  [imagemin-svgo](https://github.com/imagemin/imagemin-svgo).
+This service is powerd by [Node JS](https://nodejs.org/en/) and set out to perform image optimization from a specified URL. Optimisation will be attempted for following image types ```.jpg .png .gif .svg``` that defined within an ```img``` tag. 
+
+Service utilizes [imagemin](https://github.com/imagemin/imagemin) along with following plugins: [imagemin-jpegtran](https://github.com/imagemin/imagemin-jpegtran),  [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant),  [imagemin-gifsicle](https://github.com/imagemin/imagemin-gifsicle),  [imagemin-svgo](https://github.com/imagemin/imagemin-svgo).
 
 [Try URL Image Optimiser - https://www.webimageoptimization.com](https://www.webimageoptimization.com/)
 
