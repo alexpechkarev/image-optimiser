@@ -2,7 +2,10 @@
 
 ### The Web Image Optimization service is powered by Node JS and employ [imagemin](https://github.com/imagemin/imagemin),[imagemin-mozjpeg](https://github.com/imagemin/imagemin-mozjpeg),[imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant),[imagemin-svgo](https://github.com/imagemin/imagemin-svgo),[imagemin-gifsicle](https://github.com/imagemin/imagemin-gifsicle) libraries to efficiently compress images.
 
-##### [API Optimizer](#api_optimizer)
+- [API Optimizer](#api_optimizer)
+- [API Examples](#api_example)
+- [API Optional Parameters](#api_parameters)
+- [URL Optimizer](#url_optimizer)
 
 Images are important part of online strategy and can help to drive more visitors to a website. Simple design yield best performance results, but on the other hand ["a picture paints a thousand words"](https://en.wiktionary.org/wiki/a_picture_paints_a_thousand_words) and it is a challenge to find well balanced image optimization solution.
 
@@ -31,23 +34,33 @@ Optimizing Image via API
 ```html
 <img src="https://www.webimageoptimization.com/api/v1/?url=https://myweb.com/image.jpg">
 ```
-
 The API serves optimised `SVG`, `GIF`, `PNG` and `JPEG` formats, optional optimisation parameters available.
 
-#### URL Optimizer
-Scan and optimize images from specified URL
-Scan given URL and perform image optimization defined within an img tag.
+Image response is cached, meaning the optimised image is served for all future uses. There is no need to run a bulk process of your current images, using the API optimises the images on the fly.
 
-Optimized images, with a size less than the original image size, displayed in the results.
-
-Optimized images can be viewed for comparison with it's original image and available for download as a single file or as a `.zip` archive.
-
-Serves optimised `SVG`, `GIF`, `PNG` and `JPEG` formats, optional optimisation parameters can also be specified.
-
-Optimised images only available during the next 24 hours and will be deleted after that period.
+Benefit of optimising your images using the API will boost your websites page speed helping your websites technical SEO, which is a factor in the core Google algorithm. As the API does everything on the fly, you do not need to worry about image optimisation as you continue to add new content to the website, taking the headache away.
 
 
-#### API Optional Parameters
+### <a name="api_example"></a> API Examples
+
+Optimizing image via API
+
+```html
+
+<img src="https://www.webimageoptimization.com/api/v1/?url=https://www.myweb.com/image.jpg">
+
+```
+
+Optimizing image via API with optional parameters
+
+```html
+
+<img src="https://www.webimageoptimization.com/api/v1/?url=https://www.myweb.com/image.jpg&options={"jpg": {"quality": 75,"tune": "psnr"}}">
+
+```
+
+
+#### <a name="api_parameters"></a>  API Optional Parameters
 
 ##### JPEG Default Values
 For plugin details see [imagemin-mozjpeg](https://github.com/imagemin/imagemin-mozjpeg)
@@ -92,6 +105,18 @@ For plugin details see [imagemin-gifsicle](https://github.com/imagemin/imagemin-
 | `interlaced`    | Boolean | false        | Interlace gif for progressive rendering|
 | `optimizationLevel`| Number  | 1         | Higher levels take longer, but may have better results. Set an optimization level between 1 and 3|
 
+
+#### <a name="url_optimizer"></a> URL Optimizer
+Scan and optimize images from specified URL
+Scan given URL and perform image optimization defined within an img tag.
+
+Optimized images, with a size less than the original image size, displayed in the results.
+
+Optimized images can be viewed for comparison with it's original image and available for download as a single file or as a `.zip` archive.
+
+Serves optimised `SVG`, `GIF`, `PNG` and `JPEG` formats, optional optimisation parameters can also be specified.
+
+Optimised images only available during the next 24 hours and will be deleted after that period.
 
 ![URL Image Optimiser](https://raw.githubusercontent.com/alexpechkarev/url-image-optimiser/master/url-image-optimiser.png)
 
