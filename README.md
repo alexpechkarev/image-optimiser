@@ -1,4 +1,4 @@
-## URL Image Optimiser
+## Image Optimization via API or from URL
 
 ### The Web Image Optimization service is powered by Node JS and employ [imagemin](https://github.com/imagemin/imagemin),[imagemin-mozjpeg](https://github.com/imagemin/imagemin-mozjpeg),[imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant),[imagemin-svgo](https://github.com/imagemin/imagemin-svgo),[imagemin-gifsicle](https://github.com/imagemin/imagemin-gifsicle) libraries to efficiently compress images.
 
