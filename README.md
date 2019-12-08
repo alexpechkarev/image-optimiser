@@ -130,6 +130,7 @@ Have you seen something that looks like a mistake or would like to suggest an im
 ### License
 -------
 
+
 URL Image Optimiser is released under the MIT License. See the bundled
 [LICENSE](https://github.com/alexpechkarev/url-image-optimiser/blob/master/LICENSE)
 file for details.
