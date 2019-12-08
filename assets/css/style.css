@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+:root * {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10vw;
+}
+
+/* html, body, canvas {
+  /* width: 100%; */
+  /* height: 100%; */
+  margin: 0;
+} */
+
+body {
+  background-color: #E5F9E0;
+  overflow: hidden;
+}
+/* body canvas, body  */
+
+main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  cursor: none;
+}
+/* body menu {
+  padding: 0;
+} */
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+main .hero {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+main .hero-list {
+  display: flex;
+  flex-direction: row;
+}
+main .hero-list > div {
+  position: relative;
+  margin: 0 100px;
+  color: #F00;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 20rem;
+  font-weight: bold;
+  cursor: none;
+}
+main .hero-list > div:hover {
+  color: black;
+}
